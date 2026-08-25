@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// ---------- MERGE SORT ----------
+// MERGE SORT 
 void merge(int a[], int low, int mid, int high) {
     int temp[100];
     int i = low, j = mid + 1, k = 0;
@@ -33,7 +33,7 @@ void mergeSort(int a[], int low, int high) {
     }
 }
 
-// ---------- SELECTION SORT ----------
+// SELECTION SORT
 void selectionSort(int a[], int n) {
     for (int i = 0; i < n - 1; i++) {
         int minIndex = i;
@@ -47,7 +47,7 @@ void selectionSort(int a[], int n) {
     }
 }
 
-// ---------- QUICK SORT ----------
+// QUICK SORT
 int partition(int a[], int low, int high) {
     int pivot = a[high];
     int i = low - 1;
@@ -72,7 +72,6 @@ void quickSort(int a[], int low, int high) {
     }
 }
 
-// ---------- MAIN ----------
 int main() {
     int a[100], n, choice;
 
