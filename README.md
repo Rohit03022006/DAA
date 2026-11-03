@@ -17,7 +17,6 @@ This repository contains implementations of various algorithms studied in **Desi
 The objective of this repository is to understand algorithmic problem-solving techniques, implement fundamental algorithms using C and C++, and explore their efficiency through time and space complexity analysis.
 
 The repository covers essential algorithmic paradigms such as:
-
 - Searching and Sorting
 - Divide and Conquer
 - Greedy Algorithms
@@ -26,26 +25,6 @@ The repository covers essential algorithmic paradigms such as:
 - Graph Algorithms
 - Matrix Multiplication
 
-## Repository Structure
-
-```text
-DAA/
-│
-├── Lab1/
-│
-├── 01_Knapsack_Problem.cpp
-├── Bellman–Ford.cpp
-├── BinarySearch.c
-├── Bubble_heap_sort.cpp
-├── Dijkstra's_algorithm.cpp
-├── Floyd_Warshall_Algorithm.cpp
-├── Longest_Common_Subsequence .cpp
-├── N-Queens. cpp
-├── Sorting_algo.cpp
-├── Strassen_Matrix.cpp
-│
-└── README.md
-```
 
 ## Algorithms Implemented
 
